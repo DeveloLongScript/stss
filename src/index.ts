@@ -49,7 +49,7 @@ server.listen(3000, () => {
   console.log(chalk.green("Node version:      ") + chalk.blue(process.version));
   console.log(chalk.green("Port:              ") + chalk.blue("*:3000"));
   console.log(chalk.green("Operating System:  ") + chalk.blue(isWin ? "windows" : "unix"))
-  console.log(chalk.green("  - Shell:         ") + chalk.blue(isWin ? "cmd" : "bash"))
+  console.log(chalk.green("  - Shell:         ") + chalk.blue(isWin ? "powershell.exe" : "bash"))
   console.log(chalk.grey("---====---"))
   console.log()
   console.log(chalk.green(chalk.bold("✔  Now listening.....")))
